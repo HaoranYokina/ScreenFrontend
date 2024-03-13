@@ -1,0 +1,49 @@
+{
+    "name": "cyber-range-data-visual",
+    "private": true,
+    "version": "0.0.1",
+    "scripts": {
+        "start": "vite",
+        "dev": "vite",
+        "build": "rimraf dist && NODE_OPTIONS=--max-old-space-size=8192 vite build",
+        "build:test": "rimraf dist && vite build --mode test",
+        "build:dev": "rimraf dist && vite build --mode development",
+        "preview": "vite preview",
+        "server": "live-server ./ --port=8081",
+        "deploy": "bash deploy.sh"
+    },
+    "dependencies": {
+        "@zengxiaohui/vue3-seamless-scroll": "^2.2.4",
+        "animejs": "^3.2.1",
+        "axios": "^1.2.1",
+        "echarts": "^5.4.3",
+        "element-plus": "^2.3.14",
+        "http-server": "^14.1.1",
+        "marked": "^5.0.3",
+        "pinia": "^2.0.35",
+        "pinia-plugin-persist": "^1.0.0",
+        "qs": "^6.11.2",
+        "screenfull": "^6.0.2",
+        "swiper": "^9.4.0",
+        "uuid": "^9.0.0",
+        "vue": "^3.2.45",
+        "vue-router": "^4.1.6"
+    },
+    "devDependencies": {
+        "@types/node": "^18.11.9",
+        "@types/qs": "^6.9.7",
+        "@types/webpack-env": "^1.16.3",
+        "@vitejs/plugin-vue": "^3.2.0",
+        "mockjs": "^1.1.0",
+        "rimraf": "3.0.2",
+        "sass": "^1.49.9",
+        "typescript": "^4.5.4",
+        "vite": "^3.2.7",
+        "vue-tsc": "^0.29.8"
+    },
+    "browserslist": [
+        "> 1%",
+        "not ie 11",
+        "not op_mini all"
+    ]
+}

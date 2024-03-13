@@ -1,0 +1,29 @@
+node_modules
+*.local
+*.sh
+components.d.ts
+yarn-error.log
+.DS_Store
+
+node_modules.nosync
+package-lock.json
+dist
+upload_img.js
+scripts
+# local env files
+.env.local
+.env.*.local
+script
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+script-new
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
